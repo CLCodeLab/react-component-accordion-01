@@ -1,0 +1,22 @@
+
+{
+  "title": "Frenquently Asked Questions",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consectetur nulla diam, vitae feugiat est ultricies ut. Donec dolor risus, vestibulum a purus nec, pharetra hendrerit eros. Cras consequat urna sit amet fermentum lacinia. Sed rutrum maximus lacus sed suscipit. Quisque at suscipit purus. Curabitur blandit rhoncus laoreet. Nunc massa nulla, iaculis quis erat maximus, faucibus lobortis lorem. Quisque egestas, metus sed porttitor pretium, justo ligula feugiat lectus, at suscipit ante magna eget ante. Duis pulvinar cursus purus in faucibus. Aenean sed felis diam. In hac habitasse platea dictumst.",
+  "list":[
+    {
+      "id": 1,
+      "header": "1st header?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consectetur nulla diam, vitae feugiat est ultricies ut. Donec dolor risus, vestibulum a purus nec, pharetra hendrerit eros. Cras consequat urna sit amet fermentum lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consectetur nulla diam, vitae feugiat est ultricies ut. Donec dolor risus, vestibulum a purus nec, pharetra hendrerit eros. "
+    },
+    {
+      "id": 2,
+      "header": "2nd header?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consectetur nulla diam, vitae feugiat est ultricies ut. Donec dolor risus, vestibulum a purus nec, pharetra hendrerit eros. Cras consequat urna sit amet fermentum lacinia. Sed rutrum maximus lacus sed suscipit. Quisque at suscipit purus. "
+    },
+    {
+      "id": 3,
+      "header": "3rd header?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consectetur nulla diam, vitae feugiat est ultricies ut. Donec dolor risus, vestibulum a purus nec, pharetra hendrerit eros. Cras consequat urna sit amet fermentum lacinia. Sed rutrum maximus lacus sed suscipit. Quisque at suscipit purus. "
+    }
+  ]
+}
