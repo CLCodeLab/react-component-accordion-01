@@ -111,27 +111,27 @@ This is set into a state which updates whenever the **toggleShow** changes, cont
 
 ```jsx
 Accordion.Body = function AccordionBody({ children, ...restProps }) {
-  const { toggleShow } = useContext(ToggleContext)
-  const [menuHeight, setMenuHeight] = useState(0)
-  const menuHeightRef = useRef(null)
+	const { toggleShow } = useContext(ToggleContext)
+	const [menuHeight, setMenuHeight] = useState(0)
+	const menuHeightRef = useRef(null)
 
-  useEffect(() => {
-    if (menuHeightRef.current.offsetHeight) {
-      setMenuHeight(menuHeightRef.current.offsetHeight)
-    }
-  }, [toggleShow])
+	useEffect(() => {
+		if (menuHeightRef.current.offsetHeight) {
+			setMenuHeight(menuHeightRef.current.offsetHeight)
+		}
+	}, [toggleShow])
 
-  const style = {
-    height: toggleShow ? menuHeight : '0'
-  }
+	const style = {
+		height: toggleShow ? menuHeight : '0'
+	}
 
-  return (
-    <Frame style={style}>
-      <Body ref={menuHeightRef} {...restProps}>
-        {children}
-      </Body>
-    </Frame>
-  )
+	return (
+		<Frame style={style}>
+			<Body ref={menuHeightRef} {...restProps}>
+				{children}
+			</Body>
+		</Frame>
+	)
 }
 ```
 
